@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100svh;
+  width: 100%;
+}
+#root {
+  width: 100%;
+  height: 100%;
+}
+.outerLoginComponent {
+  width: 100%;
+  height: 100%;
+}
+.outerLoginComponent > .heading {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.outerLoginComponent > form {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.outerLoginComponent > form > .inputs.login {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.outerLoginComponent > form > .inputs > .check {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: underline;
+  color: #7f7f7f;
+}
+.outerLoginComponent > form > .inputs > input {
+  width: 80%;
+  height: 65px;
+  border-radius: 12px;
+  border: none;
+  background: #f1f1f1;
+  padding: 2px 25px 2px 25px;
+  font-size: 1.1rem;
+}
+.regButton {
+  width: 70%;
+  height: 60px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(270deg, #7b91ff 0%, #95beff 100%);
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.or {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.or > p::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 40%;
+  border-top: 1px solid black;
+}
+.or > p::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 40%;
+  border: 0.5px solid var(--gray-100, #7f7f7f);
+}
+.alterReg {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.alterReg > .sites {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.alterReg > .sites > .img {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #7f7f7f;
+  border-radius: 8px;
+}

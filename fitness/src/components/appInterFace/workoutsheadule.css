@@ -1,0 +1,115 @@
+.workoutSheaduleOuterContainer {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.heading {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  position: relative;
+}
+.heading > button {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: none;
+  background-color: #f1f1f1;
+}
+.heading > button > img {
+  width: 20px;
+  height: 20px;
+}
+.headinginnerBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headinginnerBox > h1 {
+  font-weight: 600;
+}
+.month {
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.month > img {
+  height: 15px;
+  width: 15px;
+}
+.month > p {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+.celender {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.individulaDate {
+  width: 19%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+.individulaDate > h4 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}
+.select {
+  background: linear-gradient(270deg, #8da4ff -0.62%, #d1dbff 100.68%);
+  color: white;
+}
+.sheadule {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.timeframe {
+  width: 100%;
+  height: 60px;
+  border-bottom: solid 2px #7f7f7f;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 20px;
+}
+.addbutton {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90.95deg, #e9b1e0 0.79%, #d3a5f2 99.18%);
+  box-shadow: 0px 4px 6.5px 0px #00000026;
+  right: 40px;
+  bottom: 175px;
+  font-size: 45px;
+  color: white;
+}
